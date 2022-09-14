@@ -1,0 +1,35 @@
+Collection
+continent {
+	"_id": ObjectId,
+	"name": String,
+	"population": Long,
+	"area_kilometers": Long,
+	"highest_elevation_meters": Integer,
+	"lowest_elevation_meters": Integer,
+	"countries": [
+		{
+			"_id": ObjectId
+		}
+	]
+}
+
+Collection
+country {
+	"_id": ObjectId,
+	"name": String,
+	"capital": String,
+	"region": String,
+	"population": Long,
+	"currencies": [
+		{
+			"name": String,
+			"symbol": String
+		}
+	],
+	"languages": [
+		{
+			"name": String,
+			"abbreviation": String
+		}
+	],
+}
