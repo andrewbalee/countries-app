@@ -12,7 +12,7 @@
 **Requirements**
 
 1. Install `npm` if you haven't already.
-2. Issue `npm install` root project folder.
+2. Issue `npm install` in root project folder.
 3. Issue `npm install` in client folder.
 5. Navigate to root folder and issue `npm start`.
 6. Naviate to client folder and issue `npm start`.
